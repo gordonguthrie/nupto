@@ -1,19 +1,103 @@
+@font-face {
+    font-family: 'latin_modern_roman_caps10Rg';
+    src: url('fonts/lmromancaps10-regular-webfont.eot');
+    src: url('fonts/lmromancaps10-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lmromancaps10-regular-webfont.woff') format('woff'),
+         url('fonts/lmromancaps10-regular-webfont.ttf') format('truetype'),
+         url('fonts/lmromancaps10-regular-webfont.svg#latin_modern_roman_10italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latin_modern_roman_10italic';
+    src: url('fonts/lmroman10-italic-webfont.eot');
+    src: url('fonts/lmroman10-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lmroman10-italic-webfont.woff') format('woff'),
+         url('fonts/lmroman10-italic-webfont.ttf') format('truetype'),
+         url('fonts/lmroman10-italic-webfont.svg#latin_modern_roman_caps10Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
-    margin: 0px;
+    font-size:   13px;
+    margin:      0px;
+    font-family: 'latin_modern_roman_caps10Rg', Arial, sans-serif;
+    color:        #333;
 }
 
 #container {
-    width:      280px;
-    margin:     20px;
+    width:            316px;
+    padding-top:      20px;
+    padding-bottom:   20px;
+    margin-left:      auto;
+    margin-right:     auto;
+    background-color: ffffeo;
+    border:           2px solid #ddf;
+    border-radius:    10px;
 }
 
-h1. h2 {
-    text-align: center;
-    width:      280px;
+.header, .name, .strap, .song, .singer, .bodytext, audio {
+    text-align:    center;
+    padding-left:  20px;
+    padding-right: 20px;
+    width:         280px;
+    margin:        0px;
+}
+
+audio {
+    padding: 0px;
+}
+
+.header {
+    font-size: 1.5em;
+}
+
+.name {
+    font-size: 4em;
+    }
+
+.strap {
+    font-size : 2em;
+    }
+
+.singer {
+    font-family: 'latin_modern_roman_10italic', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #339;
+}
+a:visited {
+    color: #399;
 }
 
 img {
+    margin-top:   20px;
     margin-left:  auto;
     margin-right: auto;
-    width:        280px;
+    display:      block;
+    width:        240px;
+}
+
+.wrapper {
+    margin-bottom: 5px;
+    }
+
+.strikeout {
+    text-decoration: line-through;
+}
+
+.song:hover audio {
+    display: block;
+}
+
+.song audio {
+    display: none;
 }
