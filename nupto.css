@@ -34,7 +34,7 @@ body {
     padding-bottom:   20px;
     margin-left:      auto;
     margin-right:     auto;
-    background-color: ffffeo;
+    background-color: #ffffe0;
     border:           2px solid #ddf;
     border-radius:    10px;
 }
@@ -52,11 +52,13 @@ audio {
 }
 
 .header {
-    font-size: 1.5em;
+    font-size:   1.5em;
+    line-height: 1.5em;
 }
 
 .name {
-    font-size: 4em;
+    font-size:   4em;
+    line-height: 1.5em;
     }
 
 .strap {
