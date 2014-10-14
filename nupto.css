@@ -41,10 +41,14 @@ body {
 
 .header, .name, .strap, .song, .singer, .bodytext, audio {
     text-align:    center;
-    padding-left:  20px;
-    padding-right: 20px;
     width:         280px;
     margin:        0px;
+}
+
+
+.header, .name, .strap, .song, .bodytext, audio {
+    padding-left:  20px;
+    padding-right: 20px;
 }
 
 audio {
@@ -96,10 +100,11 @@ img {
     text-decoration: line-through;
 }
 
-.song:hover audio {
-    display: block;
+.song .hider {
+    display: none;
 }
 
-.song audio {
-    display: none;
+.shower {
+    margin-top: 15px;
+    height: 30px;
 }
